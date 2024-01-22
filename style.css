@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    background-image: url(banner-2143726_1920.jpg);
+    min-height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    
+}
+
+h1 {
+    color: rgb(10, 10, 10);
+    font-size: 3rem;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    margin: 1rem;
+}
+
+nav>a {
+    margin-right: .7rem;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-image: url(black-370118_1920.png);
+    min-height: 80vh;
+    padding: 2em;
+    margin-top: .5em;
+    align-items: center;
+    margin-bottom: .5em;
+    max-width: 90vw;
+    margin: 0 auto;
+    outline-style: outset;
+}
+
+footer {
+    background-image: url(abstract-1175050_1920.jpg);
+    min-height: 10vh;
+}
+
+img {
+    border-radius: 5%;
+    height: 30vh;
+    width: 35vw; 
+    margin-right: 2em;
+    float: left;
+    outline-color: black;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+body > div {
+    display: flex;
+}
+
+aside {
+    min-height: 80vh;
+    min-width: 5vw;
+    background-image: url(abstract-1175050_1920.jpg);
+}
+
