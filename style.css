@@ -12,7 +12,7 @@ h1 {
     color: rgb(10, 10, 10);
     font-size: 3rem;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 nav > a {
@@ -54,6 +54,7 @@ p {
     color: rgb(255, 255, 255);
     font-size: larger;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    margin: .5em;
 }
 
 body > div {
@@ -115,5 +116,42 @@ section {
     text-align: center;
     color: white;
     background-image: url(abstract-1175050_1920.jpg);
+
+}
+div > h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+label {
+    color: white;
+    margin: .5em;
+}
+
+div > label {
+    display: block;
+    margin: .5em;
+}
+
+form {
+    display: flex;
+    align-content: center;
+    min-width: 90vw;
+    height: 1.5em;
+}
+
+div > button {
+    margin: 1em;
+}
+
+@media (max-width: 735px) {
+    body {
+        color: chartreuse;
+    }
+}
+
+textarea {
+    margin-left: 1em;
 
 }
